@@ -12,7 +12,7 @@
 
         //URL to send the request to
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, 'https://test.crypto.post.at/CS1/meta/'.$counter);
+        curl_setopt($ch, CURLOPT_URL, 'https://crypto.post.at/CS1/meta/'.$counter);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
         //Execute the request and fetch the response.Reset cURL. Check for Errors
