@@ -7,7 +7,7 @@
     //fputcsv($fh, $headers);
     //fclose($fh);
 
-    for($counter = 5285; $counter <= 149299; $counter++) {
+    for($counter = 0; $counter <= 149999; $counter++) {
         //sleep(1);
 
         //URL to send the request to
